@@ -1,0 +1,44 @@
+<html>
+	<meta charset="UTF-8">
+    <head>
+    	<link rel='stylesheet' type='text/css' href='estilo3.css' media='all'>
+        <title>José Ángel Ingeniero informatico.</title>
+    </head>
+    <body>
+    	<h1>José Ángel Ingeniero informatico.</h1>
+    	
+    	<nav id="top">
+			<a href="index.html">¿Quiénes somos?</a> |
+			<a href="index.html">Contacto</a> |
+			<a href="index.html">Nuestros productos</a> |
+			<a href="registro.html">Registro</a> |
+			<a href="acceso.html">Acceder</a>
+		</nav>
+		
+		<!--Registro-->
+    	<div class="section" id="Registro">
+ 			<h2 class="section_title">Registro</h2>
+			<p class="section_text">Introduce tus datos para completar el registro en nuestro sistema.</p>
+		    <form action="registrar.php" method="POST">
+		    	<br>
+		        <input type="text" placeholder="Nombre" name="txtNombre" />
+		        <input type="text" placeholder="Apellidos" name="txtApellidos" />
+		        <br>
+		        <br>
+		        <input type="text" placeholder="Usuario" name="txtUsuario" />
+		        <br>
+		        <br>
+		        <input type="password" placeholder="Contraseña" name="txtPassword" />
+		        <br>
+		        <br>
+		        <input type="email" placeholder="Email" name="txtEmail" />
+		        <br>
+		        <br>
+		        <input type="text" placeholder="Direccion" name="txtDireccion" />
+		        <br>
+		        <br>
+		        <input type="submit" value="Entrar" name="entrar" />
+		    </form>
+        </div>
+	</body>
+</html>
